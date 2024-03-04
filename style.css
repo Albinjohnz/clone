@@ -1,0 +1,505 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+}
+
+.nav-box1 {
+    background-image: url(./amazon_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 130px;
+   
+}
+
+.nav-box2 {
+    display: flex;
+    height: 50px;
+    width: 90px;
+    padding-top: 8px;
+}
+
+.box {
+   
+   
+    border: 2px solid transparent;
+}
+
+.box:hover {
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.box2-right {
+    margin-left: 8px;
+}
+
+.box2-left {
+    padding-top: 12px;
+}
+
+.icon1 {
+    font-size: 12px;
+}
+
+.first {
+    color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.second {
+    color: #CCCCCC;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.nav-box3 {
+    display: flex;
+    background-color: #febd69;
+    width: 700px;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+
+
+}
+
+.op {
+    display: flex;
+}
+
+.op select {
+    background-color: rgb(241, 229, 222);
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+
+}
+
+.op input {
+    height: 40px;
+    width: 600px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.icon2 {
+    width: 45px;
+    height: 40px;
+    border: none;
+    padding-top: 11px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.nav-box4 {
+    display: flex;
+    margin-left: 20px;
+
+
+}
+
+.nav4img {
+    padding-top: 20px;
+}
+
+.nav4img img {
+    width: 21.6px;
+    height: 16.2px;
+}
+
+.nav4sel {
+    height: 16.2px;
+    padding-top: 20px;
+
+}
+
+.nav4sel select {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.nav-box5 {
+    height: 50px;
+    color: #CCCCCC;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.para5 p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4px;
+}
+
+.sel5 select {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-box6 {
+    color: white;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.ret {
+    padding-top: 5px;
+}
+
+.order {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-box7 {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.cart {
+    color: white;
+    font-weight: bold;
+}
+.navbar2{
+    padding-left:30px;
+    padding-right:30px;
+    width:100%;
+    background-color: #232f3e;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding-top: 63px;
+    
+  
+}
+.navbar2-box{
+    display:flex;
+    font-weight: 600;
+    
+}
+.all{
+    padding-left:10px;
+}
+.nav-menu{
+    width: 100%;
+    padding-left:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.menu-items ul{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    gap: 20px;
+    text-transform: capitalize;
+    list-style: none;
+    font-weight: 600;
+   
+   
+}
+.menu-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.ps{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.box1 {
+
+    padding: 5px;
+    height:30px;
+    border: 2px solid transparent;
+}
+
+.box1:hover {
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.main{
+    width:100%;
+    height:50vh;
+    background-image:url("./amz.jpg");
+    background-position-y: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+  
+
+   
+}
+.main-para{
+    position: absolute;
+
+    width: 82%;
+    top: 80%;
+    left: 9%;
+    background-color: white;
+    height:6vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.para{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+}
+.para span a{
+    text-decoration: none;
+}
+.section1, .section2{
+    width:100%;
+    background-color:pink;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+}
+.boxx{
+    height: 420px;
+    width: 312.5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.bp{
+    padding:20px;
+}
+.boxhead{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.boxxximg{
+    margin-top:10px;
+    width: 100%px;
+    height:50vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1{
+background-image: url(./box2_image.jpg);
+}
+.img2 {
+    background-image: url(./box1_image.jpg);
+}
+.img3 {
+    background-image: url(./box3_image.jpg);
+}
+.img4 {
+    background-image: url(./box4_image.jpg);
+}
+.img5 {
+    background-image: url(./box5_image.jpg);
+}
+.img6 {
+    background-image: url(./box6_image.jpg);
+}
+.img7 {
+    background-image: url(./box7_image.jpg);
+}
+.img8 {
+    background-image: url(./box8_image.jpg);
+}
+.sign{
+    width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+}
+.sign1{
+
+        width: 100%;
+        height:70%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(186, 179, 179);
+
+        border-radius: 5px;
+        padding: 0;
+    }
+    .btn{
+        margin: 5px;
+        width: 230px;
+        height: 5vh;
+        border-radius: 10px;
+        background-image: url(pic/sign.png);
+        border: none;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .sign1 p{
+        font-size: 13px;
+        
+    }
+    .top{
+        width: 100%;
+        height: 8vh;
+        background-color: #37475A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top p{
+        color: white;
+    }
+    .footer{
+        width: 100%;
+        height: 330px;
+        background-color: #293442;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right:200px;
+    }
+
+
+
+    
+    .ft{
+        width: 250px;
+        height: 50%;
+        background-color: #293442;
+        padding-top: 30px;
+        
+    }
+    .list{
+        list-style: none;
+        color: whitesmoke;
+    }
+    .y1{
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+    .ya{
+        padding-bottom: 10px;
+
+    }
+    .listt{
+        list-style: none;
+        color: rgb(255, 255, 255);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding-left: 60px;
+    }
+
+
+   .footer1 {
+        width: 100%;
+        height: 170px;
+        background-color: #293442;
+        }
+    .fooot{
+        padding-top: 30px;
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 60px;
+        border-top: 1px solid #495d77;
+    }
+    .fooot1{
+        margin-top: 15px;
+        background-image: url(pic/amazon_logo.png);
+        width:150px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+       
+        
+    }
+    .fooot2{
+        width: 120px;
+        height: 34px;
+        background-color: #293442;
+        border-radius: 3px;
+        border: 1px solid rgb(255, 255, 255);
+        
+    }
+    .afoot{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5px;
+        gap: 3px;
+    }
+    .foootlogo{
+        font-size: 11px;
+        padding-left: 5px;
+    }
+    .en{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .foooticon{
+        font-size: 6px;
+    }
+    .fooot11{
+        padding-top: 30px;
+        
+    }
+    .ul{
+        color: white;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        list-style: none;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+    }
+    .p{
+        padding-top: 10px;
+    }
+   
